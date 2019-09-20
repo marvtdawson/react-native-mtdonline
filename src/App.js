@@ -1,12 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Portfolio from './Porfolio/Portfolio';
+import Portfolio from './components/Porfolio/Portfolio';
+import Intro from "./components/Intro";
 
-const Intro = (props) => (
-    <p className="App-intro">
-        Marvin's Online React Portfolio
-    </p>
-)
 
 class App extends Component {
   render() {
