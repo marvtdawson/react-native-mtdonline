@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import SeriesList from "../../components/SeriesList";
 
 class Series extends Component {
 
@@ -15,6 +16,7 @@ class Series extends Component {
         return (
             <div>
                 I have {this.state.series.length} favorite TV Series!
+                <SeriesList list={this.state.series}/>
             </div>
         )
     }
