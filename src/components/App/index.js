@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import Index from "../Portfolio";
-import Series from "../../containers/Series";
 import 'whatwg-fetch';
-
+import Main from "../Main";
 
 class App extends Component {
     render() {
@@ -13,7 +12,7 @@ class App extends Component {
           <h1 className="App-title">Welcome to MTD Online.net!</h1>
         </header>
           <Index />
-          <Series />
+          <Main />
       </div>
     );
   }
