@@ -6,10 +6,17 @@ import Intro from "../Intro";
 
 class App extends Component {
     state = {
-        works: []
+        programs: []
     }
 
-  render() {
+    componentDidMount() {
+        const programs = ["React", "Angular"];
+        setTimeout(() => {
+            this.setState({programs})
+        }, 2000)
+    }
+
+    render() {
     return (
       <div className="App">
         <header className="App-header">
@@ -17,7 +24,7 @@ class App extends Component {
         </header>
           <Intro message="Here you can find my most recent works"/>
           <Index />
-          {this.state.works.length} - Applications and counting!
+          I am proficient in {this.state.programs.length} front end frameworks!
       </div>
     );
   }
