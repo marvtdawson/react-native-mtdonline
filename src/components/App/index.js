@@ -7,14 +7,13 @@ import 'whatwg-fetch';
 
 class App extends Component {
     state = {
-        programs: []
+        series: []
     }
 
     componentDidMount() {
-        const programs = ["React", "Angular"];
-        setTimeout(() => {
-            this.setState({programs})
-        }, 2000)
+        fetch('http://api.tvmaze.com/search/shows?q=NCIS')
+            .then((response) => response.json())
+            .then(json => this.setState({series: json }))
     }
 
     render() {
@@ -25,7 +24,7 @@ class App extends Component {
         </header>
           <Intro message="Here you can find my most recent works"/>
           <Index />
-          I am proficient in {this.state.programs.length} front end frameworks!
+          I have {this.state.series.length} favorite TV Series!
       </div>
     );
   }

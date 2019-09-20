@@ -1,8 +1,8 @@
 import React from "react";
 
 const Intro = props => (
-    <p className="App-intro">
+    <div className="App-intro">
         {props.message}
-    </p>
+    </div>
 );
 export default Intro;
