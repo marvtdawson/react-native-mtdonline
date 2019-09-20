@@ -1,11 +1,8 @@
 import React from "react";
 
-
 const Intro = props => (
     <p className="App-intro">
-        Marvin's Online React Portfolio
+        {props.message}
     </p>
 );
-
-
 export default Intro;

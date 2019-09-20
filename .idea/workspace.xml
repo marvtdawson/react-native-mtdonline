@@ -24,9 +24,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3777ce-02de-41ca-aa2c-40035154c625" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Intro/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Portfolio/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Porfolio/Portfolio.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Portfolio/Portfolio.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Porfolio/Portfolio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +71,10 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/App" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
     </key>
@@ -114,7 +125,7 @@
       <workItem from="1536920745900" duration="2652000" />
       <workItem from="1549049522676" duration="759000" />
       <workItem from="1556992881105" duration="672000" />
-      <workItem from="1568964205480" duration="1316000" />
+      <workItem from="1568964205480" duration="2501000" />
     </task>
     <servers />
   </component>

@@ -1,18 +1,23 @@
 import React, { Component } from 'react';
 import './App.css';
-import Portfolio from './components/Porfolio/Portfolio';
-import Intro from "./components/Intro";
+import Index from "../Portfolio";
+import Intro from "../Intro";
 
 
 class App extends Component {
+    state = {
+        works: []
+    }
+
   render() {
     return (
       <div className="App">
         <header className="App-header">
           <h1 className="App-title">Welcome to MTD Online.net!</h1>
         </header>
-          <Intro />
-          <Portfolio />
+          <Intro message="Here you can find my most recent works"/>
+          <Index />
+          {this.state.works.length} - Applications and counting!
       </div>
     );
   }
