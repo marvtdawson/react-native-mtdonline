@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Index from "../Portfolio";
 import Intro from "../Intro";
+import 'whatwg-fetch';
 
 
 class App extends Component {
