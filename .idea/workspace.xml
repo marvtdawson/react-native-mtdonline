@@ -24,10 +24,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd3777ce-02de-41ca-aa2c-40035154c625" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/containers/SingleSeries/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Intro/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Intro/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Main/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SeriesList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SeriesList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/SingleSeries/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/SingleSeries/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +120,13 @@
       <workItem from="1536920745900" duration="2652000" />
       <workItem from="1549049522676" duration="759000" />
       <workItem from="1556992881105" duration="672000" />
-      <workItem from="1568964205480" duration="10704000" />
+      <workItem from="1568964205480" duration="14040000" />
+      <workItem from="1569399244125" duration="1535000" />
+      <workItem from="1569783251570" duration="1363000" />
+      <workItem from="1569792183903" duration="641000" />
+      <workItem from="1569795713822" duration="39000" />
+      <workItem from="1569814071933" duration="262000" />
+      <workItem from="1569814379586" duration="247000" />
     </task>
     <servers />
   </component>
@@ -131,7 +138,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

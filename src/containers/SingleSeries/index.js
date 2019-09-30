@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 
-class SingeSeries extends Component {
+class SingleSeries extends Component {
     render() {
         console.log(this.props);
         return (
@@ -11,4 +11,4 @@ class SingeSeries extends Component {
     }
 }
 
-export default SingeSeries;
+export default SingleSeries;

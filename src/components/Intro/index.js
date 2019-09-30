@@ -5,4 +5,5 @@ const Intro = props => (
         {props.message}
     </div>
 );
+
 export default Intro;
